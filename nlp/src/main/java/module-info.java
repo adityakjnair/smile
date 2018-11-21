@@ -1,5 +1,7 @@
 module nlp {
     requires java.base;
+    requires slf4j.api;
+    requires math;
 
     exports smile.nlp.collocation;
     exports smile.nlp.dictionary;

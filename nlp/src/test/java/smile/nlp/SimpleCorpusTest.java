@@ -122,7 +122,7 @@ public class SimpleCorpusTest {
 
     /**
      * Test of getBigramFrequency method, of class SimpleCorpus.
-     */
+     17136     */
     @Test
     public void testGetBigramFrequency() {
         System.out.println("getBigramFrequency");

@@ -1,9 +1,10 @@
 
 module core {
     requires java.base;
-    requires math;
     requires data;
+    requires transitive math;
     requires graph;
+    requires slf4j.api;
 
 
     exports smile.association;

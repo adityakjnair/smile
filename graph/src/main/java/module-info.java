@@ -1,5 +1,7 @@
 
 module graph {
     requires java.base;
-    exports smile.graph;
+    requires math;
+
+    exports smile.graph to core;
 }
