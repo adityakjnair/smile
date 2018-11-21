@@ -1,6 +1,11 @@
 
-module smile.core {
+module core {
     requires java.base;
+    requires math;
+    requires data;
+    requires graph;
+
+
     exports smile.association;
     exports smile.classification;
     exports smile.clustering;
